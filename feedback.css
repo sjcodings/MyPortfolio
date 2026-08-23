@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background-color: #191f31;
+  color: white;
+}
+
+nav h3{
+    color: white;
+    background-color: #171b25;
+    padding: 10px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+
+}
+
+.form-dashboard{
+    background-color: #171b25;
+    padding: 2%;
+    border-radius: 20px;
+    width: 40vw;
+}
+
+p{
+    font-size: 15px;
+    color: gray;
+}
+
+.form-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-details input{
+    border: 1px solid transparent;
+    outline: none;
+    padding: 10px ;
+    background: none;
+    margin: 5px 0 20px 0;
+    border-radius: 5px;
+    color: white;
+    transition: 1s ease;
+}
+
+.form-details input:focus{
+    border-color: rgb(102, 208, 243);
+}
+
+.head-info{
+    margin-bottom: 40px;
+}
+
+
+.form-details textarea{
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 1s ease;
+    margin: 5px 0 20px 0;
+}
+
+.form-details textarea:focus{
+    border-color: rgb(102, 208, 243);
+}
+
+.button button{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: #181355;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+button:hover{
+     background-color: #141135;
+     transform: translateY(-2px);
+}
+
+/* footer section begins here..  */
+
+.footer-container {
+  text-align: center;
+  height: 50px;
+  background-color: #171b25;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.footer-container > h5 {
+  font-weight: 300;
+}
+
